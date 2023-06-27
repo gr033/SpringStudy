@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="book" class="exam04.BookVO">
+		<constructor-arg>
+			<value>10</value>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<value>자바의 정석</value>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<value>어딘지 모를 출판사</value>
+		</constructor-arg>
+		
+		<constructor-arg>
+			<value>30000</value>
+		</constructor-arg>
+	</bean>
+</beans>

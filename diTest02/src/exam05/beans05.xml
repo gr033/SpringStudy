@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="book" class="exam05.BookVO">
+		<constructor-arg value="05"/>
+		<constructor-arg value="재미있는 스프링"/>
+		<constructor-arg value="쌍용 출판사"/>
+		<constructor-arg value="15000"/>
+	</bean>
+</beans>
